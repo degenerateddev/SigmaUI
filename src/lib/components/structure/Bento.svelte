@@ -1,8 +1,4 @@
-<script lang="ts">
-    export let size: number = 1;
-</script>
-
-<div class="col-span-{size}">
+<div class="p-5 bg-gray-300 rounded-lg">
     <div class="m-auto">
         <slot />
     </div>
