@@ -1,8 +1,10 @@
 <script lang="ts">
+    export let href: string;
+
     let className: string = "";
     export { className as class };
 </script>
 
-<div class="flex flex-grow gap-5 {className}">
+<a {href} class="text-primary font-semibold {className}">
     <slot />
-</div>
+</a>

@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --surface-color: #F1F1F1;
+}
+
+.dark {
+    --surface-color: #121212;
+}

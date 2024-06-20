@@ -10,7 +10,13 @@ export default {
 		  colors: {
 			primary: '#bd004b',
 			secondary: '#9933ff',
+			surface: 'var(--surface-color)',
 		  },
+		  fontFamily: {
+			sans: ['Inter', 'sans-serif'],
+			serif: ['Merriweather', 'serif'],
+			mono: ['Menlo', 'monospace'],
+		  }
 		},
 	},
 
